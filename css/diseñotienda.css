@@ -1,0 +1,170 @@
+#help{
+border-radius: 15px;
+	background-color: pink;
+	text-align: center;
+	height: 60px;
+display: inline-block;
+width: 100%;
+}
+#header .inner {
+    max-width: 65em;
+    width: calc(100% - 6em);
+    margin: 0 auto;
+    position: relative;
+}
+#header {
+    background: #1c1c1c;
+    color: #d5d5d5;
+    cursor: default;
+    height: 5em;
+    left: 0;
+    line-height: 5em;
+    position: fixed;
+    text-align: right;
+    top: 0;
+    width: 100%;
+    z-index: 10001;
+}
+body{
+	
+	   background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+figure
+{
+	float: left;
+}
+section{
+
+	width: 90%;
+	border-top: 2px  gray dashed;
+	margin: 20px auto;
+}
+figure img{
+	padding: 4px;
+	background-color: pink ;
+	border-radius: 15px;
+}
+figure img:hover{
+	-webkit-transform:scale(1.2);
+}
+figcaption{
+text-align:center;
+font-family: cursive;
+font-size: 1.3em;
+}
+
+
+footer{
+    padding: 1.5em 0;
+    background: #ffb8b8;
+    color:#fff;
+    height: 8px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+.image{
+      position: absolute;
+      height: inherit;
+    left: 0;
+}
+
+#header a {
+    -moz-transition: color 0.2s ease-in-out;
+    -webkit-transition: color 0.2s ease-in-out;
+    -ms-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    display: inline-block;
+    padding: 0 2em;
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .85em;
+}
+h3{
+   
+    text-align: center;
+    color:white;
+
+}
+h2{
+    text-align: justify;
+    color:black;
+}
+body{
+    font-family: Roboto Condensed;
+    margin: 0;
+}
+.define{
+  background: #1c1c1c;
+    color: #d5d5d5;
+}
+.sobren{
+  display: inline-block;
+  
+
+}
+
+.row{
+    display: flex;
+}
+.work {
+  padding-top: 50px;
+  margin-top: -50px;
+  text-align: center;
+}
+.contact{
+  background: #ffcccc;
+  padding-top: 50px;
+  text-align: center;
+  margin: 
+}
+.contact-details{
+  display: inline-block;
+  font-weight: bold;
+  margin: 20px 35px 45px 35px;
+  border: 2px solid #00C095;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  line-height: 125px;
+  background: #e0ebe8;
+  color: #008080;
+  font-size: 75px;
+  text-align: center;
+}
+.contact-details:hover {
+  background: #E4F1FE;
+  color: green;
+  text-align: center;
+}
+.card{position: relative; 
+      border: none;
+      }
+.card img:hover{opacity: : .8; transition: .5s;}
+.card-body{margin: 0; padding: 0; text-align: center;}
+.card:after{
+    content: "\f07a";
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    font-family: 'fontAwesome';
+    font-size: 25px;
+    color: red;
+    transition: .5s;
+    opacity: .5;
+
+}
+.card:hover:after{
+        opacity: 0.9;
+
+}
+.vendi{
+    text-align: center;
+}
