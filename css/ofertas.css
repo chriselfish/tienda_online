@@ -46,9 +46,9 @@ footer{
     text-align: center;
 }
 .cartell{
-    margin:10px auto;
+  
     display:block;
-padding-left: 370px;
+padding-left: 250px;
 }
 h2{
     text-align: center;
@@ -59,6 +59,7 @@ h2{
 
 .image-ofer{
     padding-left: 35px;
+
 }
 .define{
     background: #1c1c1c;
