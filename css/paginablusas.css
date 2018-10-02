@@ -1,0 +1,9 @@
+footer{
+    padding: 1.8em 0;
+    background: #ffb8b8;
+    color:#fff;
+    height: 8px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
